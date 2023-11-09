@@ -481,6 +481,7 @@
   transition: all ease .3s;
   cursor: pointer;
   text-decoration: none;
+  text-align: center;
 }
 
 .projects__item:hover .projects__subtitle{

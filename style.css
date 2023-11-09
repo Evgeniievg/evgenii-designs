@@ -537,6 +537,38 @@
   .header__container{
     max-width: 90%;
   }
+  .services__element{
+    max-width: 90%;
+  }
+  .about-me{
+    max-width: 90%;
+  }
+  .collaborate{
+    max-width: 90%;
+  }
+  .footer{
+    max-width: 90%;
+  }
+  .projects__collection{
+    width: 90%;
+  }
+  .projects__left{
+    width: 45%;
+  }
+
+  .projects__item-first{
+    width: 100%;
+  }
+  .projects__right{
+    width: 50%;
+  }
+  .projects__item-second{
+    width: 100%;
+  }
+
+  .projects__item-third{
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 1080px) {
@@ -545,19 +577,20 @@
     height: 430px;
     right: -30%;
   }
+  .collaborate__moon{
+    right: -15%;
+    top: 0%;
+    width: 400px;
+  }
+  .services__element{
+    font-size: 24px;
+  }
 
   .header__subtitle{
-    font-size: 32px;
-    font-weight: 400;
-    letter-spacing: 4px;
+    font-size: 48px;
     max-width: 500px;
-    line-height: 120%;
+  }
 
-  }
-  .header__description{
-    font-size: 24px;
-    max-width: 400px;
-  }
   .header__menu-container{
     width: 50vw;
   }
@@ -565,6 +598,14 @@
     width: 90%;
     height: 70vh;
   }
+  .about-me__image{
+    width: 350px;
+  }
+  .about-me__text{
+    font-size: 26px;
+    max-width: 550px;
+  }
+
 }
 
 @media screen and (max-width: 880px) {
@@ -580,6 +621,78 @@
     width: 95%;
     height: 60vh;
   }
+  .services__element{
+    font-size: 22px;
+  }
+
+  .services__title{
+    font-size: 32px;
+  }
+
+  .about-me__image{
+    width: 250px;
+  }
+  .about-me__text{
+    font-size: 20px;
+    max-width: 350px;
+  }
+
+  .collaborate__moon{
+    right: -25%;
+    top: 0%;
+    width: 350px;
+
+  }
+
+  .collaborate__text{
+    font-size: 32px;
+    z-index: 10;
+  }
+
+  .footer__socials{
+    max-width: 500px;
+  }
+
+  .footer__social{
+    font-size: 20px;
+    width: 130px;
+  }
+
+  .footer__gmail{
+    font-size: 24px;
+    max-width: 500px;
+  }
+
+  .projects__collection{
+    flex-direction: column;
+    gap: 20px;
+  }
+  .projects__left{
+    width: 100%;
+  }
+
+  .projects__item-first{
+    width: 100%;
+    height: 400px;
+  }
+  .projects__right{
+    width: 100%;
+  }
+  .projects__item-second{
+    width: 100%;
+    height: 200px;
+  }
+
+  .projects__item-third{
+    width: 100%;
+    height: 200px;
+  }
+
+  .header__description{
+    font-size: 32px;
+    max-width: 500px;
+  }
+
 
 }
 
@@ -605,9 +718,9 @@
   }
 
   .header__subtitle{
-    font-size: 24px;
-  font-weight: 600;
-}
+    font-size: 40px;
+    max-width: 400px;
+  }
 
   .header__menu-image{
     width: 25px;
@@ -617,6 +730,56 @@
     width: 90%;
     height: 40vh;
   }
+  .services__element{
+    font-size: 18px;
+  }
+  .about-me{
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .about-me__image{
+    width: 100%;
+  }
+  .about-me__text{
+    font-size: 22px;
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .collaborate__moon{
+    right: -35%;
+    width: 300px;
+
+  }
+
+  .collaborate__text{
+    font-size: 28px;
+  }
+
+  .footer__socials{
+    max-width: 100%;
+  }
+
+  .footer__social{
+    font-size: 16px;
+    width: 90px;
+  }
+
+  .footer__gmail{
+    font-size: 20px;
+    max-width: 100%;
+  }
+
+  .projects__item-first{
+    height: 350px;
+  }
+
+  .header__description{
+    font-size: 28px;
+    max-width: 400px;
+  }
+
 
 }
 

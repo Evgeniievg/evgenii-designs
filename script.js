@@ -5,10 +5,14 @@ const mobileMenuBackground = document.querySelector('.header__mobile-menu');
 const menuElement = document.querySelectorAll('.header__element');
 const firstProjectLink = document.querySelector('.projects__subtitle_type_first');
 const secondProjectLink = document.querySelector('.projects__subtitle_type_second');
+const thirdProjectLind = document.querySelector('.projects__subtitle_type_third');
 const firstProject = document.querySelector('.first-project');
 const secondProject = document.querySelector('.second-project');
+const thirdProject = document.querySelector('.third-project');
 const closePopupButton = document.querySelector('.first-project__close')
 const closeSecondPopupButton = document.querySelector('.second-project__close')
+const closeThirdPopupButton = document.querySelector('.third-project__close')
+
 
 
 firstProjectLink.addEventListener('click', () => {
@@ -19,12 +23,20 @@ secondProjectLink.addEventListener('click', () => {
   secondProject.classList.toggle('open')
 })
 
+thirdProjectLind.addEventListener('click', () => {
+  thirdProject.classList.toggle('open');
+})
+
 closePopupButton.addEventListener('click', () => {
   firstProject.classList.remove('open')
 })
 
 closeSecondPopupButton.addEventListener('click', () => {
   secondProject.classList.remove('open')
+})
+
+closeThirdPopupButton.addEventListener('click', () => {
+  thirdProject.classList.remove('open')
 })
 
 menuElement.forEach((e) => e.addEventListener('click', () => {
